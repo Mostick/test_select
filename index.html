@@ -1,10 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Test task: Custom select component</title>
+    <link rel="stylesheet" href="./src/css/custom-select.css">
+    <link rel="stylesheet" href="./src/css/style.css">
 </head>
 <body>
-$END$
+    <div class="content">
+        <div class="select">
+            <select>
+                <option value="Kyiv">Kyiv</option>
+                <option value="London" selected>London</option>
+                <option value="Paris">Paris</option>
+            </select>
+
+<!--            <div class="custom-select">-->
+<!--                <div class="custom-select__value">-->
+<!--                    Kyiv-->
+<!--                    <img src="./src/svg/arrow.svg" alt="arrow-icon">-->
+<!--                </div>-->
+<!--                <div class="custom-select__options">-->
+<!--                    <div class="custom-select__options-item">London</div>-->
+<!--                    <div class="custom-select__options-item">Paris</div>-->
+<!--                </div>-->
+<!--            </div>-->
+        </div>
+    </div>
+    <script src="./src/js/CustomSelect.js"></script>
+    <script src="./src/js/index.js"></script>
 </body>
 </html>
